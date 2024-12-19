@@ -1,0 +1,12 @@
+Topic: File Archiving Commands
+File archiving is the process of combining multiple files into a single archive file for easier
+management and transfer. Here are some commonly used file archiving commands:
+compress command is used to compress a file
+uncompress command is used to uncompress a file
+gzip command is used to compress a file and create a compressed file with .gz extension.
+gunzip command is used to uncompress a file compressed by gzip.
+tar command is used to create a single archive file from multiple files and directories.
+tar -cvf command is used to create a new archive file.
+tar -xvf command is used to extract the contents of an archive file.
+zip command is used to create a compressed file with .zip extension.
+unzip command is used to extract the contents of a compressed file.

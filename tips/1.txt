@@ -1,0 +1,14 @@
+Topic: Grep Command
+Grep stands for Global Regular Expression Print. It is a powerful command-line utility that
+searches for patterns in files or standard input and displays matching lines. Grep uses
+regular expressions to search for patterns, which are sequences of characters that define a
+search pattern.
+Example code
+grep apple fruits.txt
+This command will display all lines in "fruits.txt" that contain the word "apple".
+Other useful Grep options include:
+-i: ignore case when searching
+-v: invert the search, displaying all lines that do not match the pattern
+-c: count the number of lines that match the pattern
+-l: display only the names of files that contain the pattern
+-n: display the line number along with the matched line

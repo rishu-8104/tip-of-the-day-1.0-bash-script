@@ -1,0 +1,16 @@
+Topic: Linux Permissions
+Linux permissions control access to files and directories on a Linux system. Understanding and 
+managing permissions is essential for securing your system and keeping your files safe.
+Here are some tips to help you manage permissions on your Linux system:
+
+Understanding the basic file permissions: There are three basic permissions: read, write, and 
+execute. These permissions can be set for three different groups: owner, group, and others.
+Changing file permissions: Use the chmod command to change permissions. The basic syntax is chmod 
+[permissions] [file/directory].
+Setting permissions recursively: Use the -R option with chmod to set permissions recursively on 
+all files and directories within a given directory.
+Setting ownership: Use the chown command to change the ownership of a file or directory. The 
+basic syntax is chown [owner]:[group] [file/directory].
+Setting permissions with symbolic notation: You can also use symbolic notation to set 
+permissions. For example, u+x adds execute permission for the owner, g-w removes write permission 
+for the group, and o=r sets read permission for others.

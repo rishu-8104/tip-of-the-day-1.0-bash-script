@@ -1,0 +1,12 @@
+Here are some examples of how to use tar:
+
+To create a new tar archive of a directory named "mydir", use the command:
+tar -cvf mydir.tar mydir
+To extract files from an existing tar archive named "myarchive.tar", use the command:
+tar -xvf myarchive.tar
+To create a compressed tar archive using gzip, use the command:
+tar -czvf mydir.tar.gz mydir
+To extract files from a compressed tar archive using gzip, use the command:
+tar -xzvf mydir.tar.gz
+Tar is a powerful tool and there are many other options and use cases. It is commonly used for 
+creating backups, transferring files, and distributing software packages.

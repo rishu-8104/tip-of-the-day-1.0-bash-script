@@ -1,0 +1,20 @@
+Topic: Sed command
+Sed stands for "stream editor". It is a powerful utility for text processing and transformation
+in Linux. Sed reads text files line by line and applies operations on each line according to its
+syntax.
+Sed commands and options:
+The basic syntax of sed command is:
+sed [options] commands [file]
+Some of the commonly used options and commands are:
+Options:
+-i: Edit the file in place.
+-e: Multiple sed commands can be combined and executed.
+-n: Suppress automatic printing of pattern space.
+Commands:
+s: Substitute the first occurrence of a pattern with a replacement.
+g: Substitute all occurrences of a pattern with a replacement.
+p: Print the pattern space.
+d: Delete the pattern space.
+a: Append text after a line.
+i: Insert text before a line.
+r: Append contents of a file after a line.

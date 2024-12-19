@@ -1,0 +1,16 @@
+Topic Tar, tape archiver
+Tar is a command line utility in Linux that is used for archiving files and directories. It 
+is 
+short for "tape archiver" because it was initially used to create backups on tape drives. Tar 
+archives multiple files into a single file, which is also called a tarball. The tarball can be 
+compressed using other programs such as gzip or bzip2. Tar can also extract files from an 
+existing tarball.
+
+Some commonly used options with tar command are:
+-c: Create a new tar archive.
+-x: Extract files from an existing archive.
+-v: Verbose output. It displays a list of files as they are being archived or extracted.
+-f: Specify the filename of the archive. For example, to create a tarball named "myarchive.tar", 
+you would use the option "-f myarchive.tar".
+-z: Compress the archive with gzip.
+-j: Compress the archive with bzip2.
